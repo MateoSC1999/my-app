@@ -19,41 +19,7 @@ body {
   
 }
 
-.nav-container {
-  background-color: #737377;
-  font-size: 1.2rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 45px;
-}
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 40px;
-  margin: auto;
-}
-
-.navbar ul {
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-}
-
-.nav-container .navbar ul li {
-  padding: 30px;
-  margin: 0 10px;
-}
-
-.navbar a {
-  color: #fff;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.navbar a:hover {
-  color: #abc4aa;
-}
 
 .footer {
   background-color: #737377;
