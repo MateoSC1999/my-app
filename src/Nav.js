@@ -1,11 +1,13 @@
 function Nav(){
 return (
-    <nav>
-        <ul >
-            <li style={{display: "inline"}}><a href="./About">About</a></li>
-            <li style={{display: "inline"}}><a href="./ContacUs">Contact us</a></li>
-            <li style={{display: "inline"}}><a href="./Reserve">Reserve</a></li>
-        </ul>
-    </nav>)
+    <div className="nav-container">
+        <nav className="navbar">
+            <ul >
+                <li ><a href="./About">About</a></li>
+                <li ><a href="./ContacUs">Contact us</a></li>
+                <li ><a href="./Reserve">Reserve</a></li>
+            </ul>
+        </nav>
+    </div>)
 }
 export default Nav;

@@ -1,17 +1,12 @@
 import logo from './logo.png';
 
+
 function Header() {
 
     return (
-    <header style={{
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',}}>
+    <header id="header" >
 
-        <img  style={{
-            width:300,
-            height: 100
-            }}
+        <img id='logo'
             src={logo}
             alt='../public/logo512.png'/>
     </header>
