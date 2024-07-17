@@ -1,0 +1,20 @@
+.bio {
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.bio article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.bio h1 {
+    height: 1px;
+}
